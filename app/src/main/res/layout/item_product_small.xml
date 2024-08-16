@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/productIv"
+        android:layout_width="0dp"
+        app:viewAspectRatio="1.1"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="end"
+        android:gravity="end|center_horizontal"
+        android:maxLines="2"
+        android:minLines="2"
+        android:textColor="?colorOnSurface"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/productIv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productIv"
+        tools:text="TextView" />
+
+    <TextView
+        android:textSize="12sp"
+        android:textColor="?android:textColorSecondary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:id="@+id/ejare_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/title_tv"
+        app:layout_constraintTop_toBottomOf="@+id/title_tv" />
+
+    <TextView
+        android:id="@+id/rahn_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="@+id/ejare_tv"
+        app:layout_constraintTop_toBottomOf="@+id/ejare_tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

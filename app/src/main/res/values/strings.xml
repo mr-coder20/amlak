@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">املاکستان</string>
+    <string name="Home">آگهی ها</string>
+
+    <string name="setting">تنظیمات</string>
+    <string name="moshaver">مشاوره</string>
+    <string name="pricing">قیمت گذاری</string>
+
+    <string name="Cities">ثبت آگهی</string>
+    <string name="Profile">حساب کاربری</string>
+    <string name="viewAll">مشاهده همه</string>
+    <string name="latest">جدیدترین</string>
+    <string name="popular">پربازدیدترین</string>
+
+    <string name="insertComment">ثبت نظر</string>
+    <string name="comments">نظرات کاربران</string>
+
+    <string name="productList">لیست محصولات</string>
+
+    <string name="sort">مرتب سازی</string>
+    <string name="sortLatest">جدیدترین</string>
+    <string name="sortPopular">پربازدیدترین</string>
+    <string name="sortPriceHighToLow">گران ترین</string>
+    <string name="sortPriceLowToHigh">ارزان ترین</string>
+    <string name="call">اطلاعات تماس</string>
+    <string name="internet_error">خطای اینترنت</string>
+    <string name="success_addToCart">به سبد خرید اضافه شد</string>
+
+
+    <string-array name="sort">
+        <item>@string/sortLatest</item>
+        <item>@string/popular</item>
+        <item>@string/sortPriceHighToLow</item>
+        <item>@string/sortPriceLowToHigh</item>
+    </string-array>
+
+    <string name="loginScreenTitle">ورود به حساب کاربری</string>
+    <string name="loginTitle">ورود</string>
+    <string name="email">ایمیل</string>
+    <string name="password">رمز عبور</string>
+    <string name="signUpHint">حساب کاربری ندارید؟</string>
+    <string name="signUp">ثبت نام</string>
+    <string name="authHint">ایمیل و رمز عبور خود را وارد کنید</string>
+    <string name="signUpScreenTitle">ایجاد حساب کاربری</string>
+    <string name="loginHint">قبلا ثبت نام کردید؟</string>
+    <string name="start">شروع</string>
+    <string name="update_btn">بروزرسانی</string>
+    <string name="tenant">مستاجر</string>
+    <string name="update">اپلیکیشن درحال بروزرسانی است\nلطفا چند دقیقه دیگر مجدد تلاش فرمایید</string>
+    <string name="lessor">مؤجر</string>
+    <string name="next">بعدی</string>
+    <string name="real_estate">مشاور املاک</string>
+    <string name="select_language">انتخاب زبان</string>
+    <string name="exit">خروج</string>
+    <string name="call_info">اطلاعات تماس</string>
+    <string name="tenant_desc">اگر مستأجر هستید، می توانید به راحتی از قسمت آگهی ها در اپلیکیشن ملک موردنظر خود را پیدا کنید</string>
+    <string name="lessor_desc">اگر مؤجر هستید، می توانید به راحتی از قسمت ثبت آگهی در اپلیکیشن ملک موردنظر خود را اجاره دهید</string>
+    <string name="real_estate_desc">اگر در حوزه املاک فعالیت می کنید، می توانید در اپلیکیشن با ثبت یا مشاهده ی تعداد زیادی آگهی\n کسب و کار خود را رونق دهید</string>
+    <string name="pricing_desc">می توانید برای قیمت گذاری روی ملک خود\n آن را انتشار دهید و مشاوران املاک روی ملک شما\n برای فروش، اجاره یا رهن نرخ تقریبی بگذارند</string>
+
+    <string name="old_version">نسخه نصب شده ی اپلیکیشن شما قدیمی است\n\n\n</string>
+
+
+    <string name="rules">شرایط و قوانین استفاده از املاکستان را می پذیرم</string>
+</resources>

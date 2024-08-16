@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_green_200">
+
+    <Toolbar
+
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+<ImageView
+    android:id="@+id/im_change_language"
+    android:scaleType="centerCrop"
+    android:padding="25dp"
+    android:layout_gravity="end|center"
+    android:src="@drawable/ic_language"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+</ImageView>
+    </Toolbar>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toTopOf="@+id/pageIndicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/pageIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/md_green_200"
+        android:scrollIndicators="left"
+        app:dotsColor="@color/md_light_green_A700"
+        app:dotsCornerRadius="8dp"
+        app:dotsElevation="1dp"
+        app:dotsSize="4dp"
+        app:dotsSpacing="4dp"
+        app:dotsWidthFactor="2.5"
+        app:layout_constraintBottom_toTopOf="@+id/layout_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:progressMode="true"
+        app:selectedDotColor="@color/md_white_1000"
+        app:tabBackground="@drawable/viewpager_selector_white"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/layout_rounded_top_white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_create_account"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_selector"
+            android:textAllCaps="true"
+            android:textColor="@color/md_white_1000" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_policy_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+
+            android:gravity="center"
+            android:text="@string/rules"
+            android:textColor="@color/md_grey_500"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

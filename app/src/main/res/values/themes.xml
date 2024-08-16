@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Amlakestan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_green_A700</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:windowBackground">@color/md_white_1000</item>
+
+        <item name="colorSecondary">@color/black</item>
+        <item name="toolbarStyle">@color/md_white_1000</item>
+
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="fontFamily">@font/iranyekan</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="dividerColor">@color/gray</item>
+        <item name="android:textColorSecondary">@color/darkgray</item>
+    </style>
+
+    <style name="Theme.Amlakestan" parent="Base.Theme.Amlakestan" />
+    <style name="Theme.Amlakestan.AuthTheme" parent="Theme.Amlakestan">
+        <item name="android:statusBarColor">@color/md_white_1000</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+</resources>

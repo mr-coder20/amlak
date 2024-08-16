@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/select_language" />
+        <View
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/md_grey_400"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/english_lang"
+        android:background="@drawable/item_filter_bg2"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:text="English" />
+
+    <TextView
+        android:background="@drawable/item_filter_bg2"
+        android:id="@+id/persian_lang"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:text="فارسی" />
+
+    <TextView
+        android:background="@drawable/item_filter_bg2"
+
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/arabic_lang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:text="العربية" />
+
+    <Button
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/btn_selector"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">املاکستان</string>
+    <string name="Home">آگهی ها</string>
+
+    <string name="setting">setting</string>
+    <string name="moshaver">consultant</string>
+    <string name="pricing">pricing</string>
+
+    <string name="Cities">ثبت آگهی</string>
+    <string name="Profile">حساب کاربری</string>
+    <string name="viewAll">مشاهده همه</string>
+    <string name="latest">جدیدترین</string>
+    <string name="popular">پربازدیدترین</string>
+
+    <string name="insertComment">ثبت نظر</string>
+    <string name="comments">نظرات کاربران</string>
+
+    <string name="productList">لیست محصولات</string>
+
+    <string name="sort">مرتب سازی</string>
+    <string name="sortLatest">جدیدترین</string>
+    <string name="sortPopular">پربازدیدترین</string>
+    <string name="sortPriceHighToLow">گران ترین</string>
+    <string name="sortPriceLowToHigh">ارزان ترین</string>
+    <string name="call">اطلاعات تماس</string>
+    <string name="internet_error">خطای اینترنت</string>
+    <string name="success_addToCart">به سبد خرید اضافه شد</string>
+
+
+    <string-array name="sort">
+        <item>@string/sortLatest</item>
+        <item>@string/popular</item>
+        <item>@string/sortPriceHighToLow</item>
+        <item>@string/sortPriceLowToHigh</item>
+    </string-array>
+
+    <string name="loginScreenTitle">ورود به حساب کاربری</string>
+    <string name="loginTitle">ورود</string>
+    <string name="email">ایمیل</string>
+    <string name="password">رمز عبور</string>
+    <string name="signUpHint">حساب کاربری ندارید؟</string>
+    <string name="signUp">ثبت نام</string>
+    <string name="authHint">ایمیل و رمز عبور خود را وارد کنید</string>
+    <string name="signUpScreenTitle">ایجاد حساب کاربری</string>
+    <string name="loginHint">قبلا ثبت نام کردید؟</string>
+    <string name="start">start</string>
+    <string name="update_btn">Update</string>
+    <string name="tenant">tenant</string>
+    <string name="lessor">lessor</string>
+    <string name="real_estate">Real Estate Consultant</string>
+    <string name="select_language">Language</string>
+    <string name="next">Next</string>
+
+    <string name="update">The application is being updated\nPlease try again in a few minutes</string>
+
+    <string name="exit">Exit</string>
+
+    <string name="tenant_desc">If you are a renter, you can easily find the property you want from the classifieds section of the application</string>
+    <string name="lessor_desc">If you are a home owner, you can easily rent your desired property to people from the ad registration section of the application</string>
+    <string name="real_estate_desc">If you are active in the field of real estate, you can promote your business in this field by registering or viewing a large number of ads or consulting people</string>
+    <string name="old_version">The installed version of your application\n is out of date\n\n</string>
+    <string name="pricing_desc">You can publish your property for pricing\n and real estate agents appraise your property for sale, lease or mortgage pricing</string>
+    <string name="call_info">اطلاعات تماس</string>
+
+
+
+    <string name="rules">I accept the terms and conditions of use amlakestan</string>
+</resources>

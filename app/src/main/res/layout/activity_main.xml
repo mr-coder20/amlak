@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_200"
+    tools:context=".feature.main.MainActivity">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        android:background="@color/md_white_1000"
+
+        >
+
+    </androidx.fragment.app.FragmentContainerView>
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/bottomNavigationMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+
+        android:background="@drawable/item_filter_bg3"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        app:cnb_addBottomInset="false"
+        app:cnb_addLeftInset="false"
+        app:cnb_addRightInset="false"
+
+        app:cnb_addTopInset="false"
+        app:cnb_animationDuration="175"
+        app:cnb_iconSize="22dp"
+
+        app:cnb_menuResource="@menu/main_navigation"
+        app:cnb_minExpandedWidth="20dp"
+        app:cnb_orientationMode="horizontal"
+        app:cnb_radius="12dp"
+        app:cnb_unselectedColor="@color/md_grey_500" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

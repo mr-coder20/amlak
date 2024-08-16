@@ -1,0 +1,87 @@
+[versions]
+agp = "8.5.0"
+bottomnavigationviewex = "2.0.4"
+chipNavigationBarVersion = "1.4.0"
+converterGson = "2.11.0"
+converterGsonVersion = "2.9.0"
+curvedbottomnavigation = "0.1.3"
+dexter = "6.2.2"
+dynamicanimation = "1.0.0"
+etebarianMeowBottomNavigation = "1.3.1"
+eventbus = "3.3.1"
+fluidbottomnavigationAndroid = "1.0.0"
+fresco = "3.2.0"
+googleGson = "2.11.0"
+koinCore = "3.5.6"
+koinTest = "3.5.6"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinStdlibJdk7Version = "2.0.0"
+kotlinxCoroutinesAndroid = "1.7.3"
+lottie = "6.5.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+navigationFragmentKtx = "2.7.7"
+navigationUiKtx = "2.7.7"
+navigationRuntimeKtx = "2.7.7"
+npCurved_bottom_navigation = "latest_version"
+retrofit = "2.9.0"
+rxandroid = "2.1.1"
+rxjava = "2.2.21"
+tbuonomoDotsindicatorVersion = "5.0"
+tbuonomoMorphBottomNavigation = "1.0.1"
+timber = "5.0.1"
+viewpager2 = "1.1.0"
+
+[libraries]
+adapter-rxjava2 = { module = "com.squareup.retrofit2:adapter-rxjava2", version.ref = "converterGson" }
+androidx-activity-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-dynamicanimation = { module = "androidx.dynamicanimation:dynamicanimation", version.ref = "dynamicanimation" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+androidx-navigation-runtime-ktx = { module = "androidx.navigation:navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+bottomnavigationviewex = { module = "com.github.ittianyu:BottomNavigationViewEx", version.ref = "bottomnavigationviewex" }
+com-etebarian-meow-bottom-navigation = { module = "com.etebarian:meow-bottom-navigation", version.ref = "etebarianMeowBottomNavigation" }
+com-google-code-gson-gson = { module = "com.google.code.gson:gson", version.ref = "googleGson" }
+com-tbuonomo-dotsindicator2 = { module = "com.tbuonomo:dotsindicator", version.ref = "tbuonomoDotsindicatorVersion" }
+com-tbuonomo-morph-bottom-navigation = { module = "com.tbuonomo:morph-bottom-navigation", version.ref = "tbuonomoMorphBottomNavigation" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+converter-gson-v290 = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGsonVersion" }
+curvedbottomnavigation = { module = "com.github.qamarelsafadi:CurvedBottomNavigation", version.ref = "curvedbottomnavigation" }
+dexter = { module = "com.karumi:dexter", version.ref = "dexter" }
+eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
+fluidbottomnavigation-android = { module = "com.github.10clouds:FluidBottomNavigation-android", version.ref = "fluidbottomnavigationAndroid" }
+fresco = { module = "com.facebook.fresco:fresco", version.ref = "fresco" }
+io-insert-koin-koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinCore" }
+ismaeldivita-chip-navigation-bar = { module = "com.github.ismaeldivita:chip-navigation-bar", version.ref = "chipNavigationBarVersion" }
+jetbrains-kotlin-stdlib-jdk7 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk7", version.ref = "kotlinStdlibJdk7Version" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+koin-test = { module = "io.insert-koin:koin-test", version.ref = "koinTest" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinCore" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+np-curved_bottom_navigation = { module = "np.com.susanthapa:curved_bottom_navigation", version.ref = "npCurved_bottom_navigation" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterGson" }
+retrofit-v290 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+rxandroid = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
+rxjava = { module = "io.reactivex.rxjava2:rxjava", version.ref = "rxjava" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
