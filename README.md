@@ -1,6 +1,1 @@
-[Video](screen.mp4)
-![Alt Text](screen.mp4)
-![home](https://github.com/user-attachments/assets/df40d3d5-8303-4d06-8a45-0c674e5c6fb6)
-![detail](https://github.com/user-attachments/assets/857000d7-be03-4371-85c1-1c17c7108f0c)
-![detail2](https://github.com/user-attachments/assets/9526fa70-6656-42e6-b66f-d67027f262ba)
-![detail3](https://github.com/user-attachments/assets/1e24a7c2-da79-4749-899c-31107e977d3c)
+
